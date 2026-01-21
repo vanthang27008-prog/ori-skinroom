@@ -1,11 +1,11 @@
 import Image from "next/image";
 
 const images = [
-  { src: "/images/gallery-1.jpg", alt: "Không gian spa" },
-  { src: "/images/gallery-2.jpg", alt: "Góc chăm sóc da" },
-  { src: "/images/gallery-3.jpg", alt: "Sản phẩm và dụng cụ" },
-  { src: "/images/gallery-4.jpg", alt: "Phòng liệu trình" },
-  { src: "/images/gallery-5.jpg", alt: "Vibe thư giãn" },
+  { src: "/images/gallery1.jpg", alt: "Không gian spa" },
+  { src: "/images/gallery2.jpg", alt: "Góc chăm sóc da" },
+  { src: "/images/gallery3.jpg", alt: "Sản phẩm và dụng cụ" },
+  { src: "/images/gallery4.jpg", alt: "Phòng liệu trình" },
+  { src: "/images/gallery5.jpg", alt: "Vibe thư giãn" },
 ];
 
 export default function Gallery() {
@@ -66,7 +66,7 @@ function CardImage({
           src={src}
           alt={alt}
           fill
-          className="object-cover transition duration-500 group-hover:scale-[1.04]"
+          className="object-cover object-center transition duration-500 group-hover:scale-[1.04]"
         />
       </div>
 

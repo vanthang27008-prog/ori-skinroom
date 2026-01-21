@@ -64,7 +64,7 @@ export default function Hero() {
             <div className="relative overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-sm">
               <div className="relative h-[380px] md:h-[520px]">
                 <Image
-                  src="/images/hero.jpg"
+                  src="/images/hero-spa.png"
                   alt="Không gian spa"
                   fill
                   priority
