@@ -44,7 +44,7 @@ export default function Pricing() {
             { name: "Peel hỗ trợ trị mụn", price: "550k" },
             { name: "Peel mờ thâm, đều màu da", price: "600k" },
             { name: "Peel căng bóng, sáng da", price: "550k" },
-            { name: "⭐ Peel da nhiễm (Layer Peel)", price: "700k", best: true },
+            { name: "⭐ Peel đa nhiệm (Layer Peel)", price: "700k", best: true },
           ]}
         />
 
